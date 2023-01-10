@@ -13,7 +13,6 @@ Hi! I am a MS Robotics Student from the ECE department at Northeastern Universit
 Courses I have taken include Mobile Robotics, Robot Sensing and Navigation, Computer Vision, Robot Science and System. The cornerstones of my work have always been based on solid mathematical foundations and, efficient and robust coding methodologies.
 
 ---
-{% include homepage_feature_row %}
 
 Current Projects
 ------
