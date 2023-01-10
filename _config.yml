@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Aryaman Patel"
   avatar           : "profile.png"
-  bio              : "MS Robotics student at Northeastern University. I am interested to further research into Robot Perception and Visual SLAM."
+  bio              : "MS Robotics student at Northeastern University."
   location         : "Boston, MA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=8I_26uEAAAAJ&hl=en"
   email            : "patel.aryam@northeastern.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
