@@ -16,4 +16,7 @@ Courses I have taken include Mobile Robotics, Robot Sensing and Navigation, Comp
 {% include homepage_feature_row %}
 
 Current Projects
+------
+
+### ICP implementation in C++
 
