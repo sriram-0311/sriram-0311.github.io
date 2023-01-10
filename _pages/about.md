@@ -11,5 +11,6 @@ Hi! I have nurtured a deep interest in Robotics throughout my undergraduate stud
 
 A short overview of my previous work...
 ======
+My undergraduate studies helped me develop excellent fundamentals in applied mathematics, especially in numerical methods for ordinary differential equations and optimization techniques. I applied these skills in my research for solving non-linear ordinary differential equations that represented the continuity, momentum, andenergy equations of a nanofluid. I modeled two nanonfluids under conditions like electro-osmosis, magneto-hydrodynamics and porous medium. Furthermore, I discussed the change in velocity, concentration, and the temperature of the nanofluid with increasing specific parameters. Through this research, I developed my interest in analytical study and gained skills in using MATLAB to solve non-linear equations.
 
-
+![Nanofluid](https://user-images.githubusercontent.com/117113574/211462581-960909c6-d1bc-46ea-8fba-c6699da4a4d5.png)
