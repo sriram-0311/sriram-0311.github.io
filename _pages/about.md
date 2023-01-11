@@ -6,17 +6,19 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+homepage_feature_row:
+  - image_path: 
+    title: "Mathematical modeling of nanofluids"
 ---
 <p align="justify"> 
-Hi! I am a MS Robotics Student from the ECE department at Northeastern University. My net of interests is cast in wide areas mainly around topics robot perception, motion planning and visual based SLAM techniques.The cornerstones of my work have always been based on solid mathematical foundations and, efficient and robust coding methodologies. 
+Hi! I am a MS Robotics Student from the ECE department at Northeastern University. My net of interests is cast in wide areas mainly around topics of robot perception, motion planning, visual based SLAM techniques and, certifiably correct algorithms. The cornerstones of my work have always been based on solid mathematical foundations and, efficient and robust coding methodologies.
+
+I am accustomed to coding languages like C++ and in the use of ROS software. Currently, I am actively learning topics like Multiple View Geometry, Visual inertial fusion, Bundle adjustment and Vision algorithms for mobile robotics. 
+
 </p>
 
-My Background 
+Research Experience: 
 ---
-### Work Experience:
-
-
-
 ### Academic Research Background:
 **Mathematical Modelling of Nanofluids**
 <p align="justify">
@@ -24,7 +26,7 @@ My undergraduate studies helped me develop excellent fundamentals in applied mat
 porous medium. I developed my interest in analytical study and gained skills in using MATLAB to solve non- linear equations.
 </p>
 
-![Nanofluid](https://user-images.githubusercontent.com/117113574/211640149-5247a47e-2400-47e4-a751-399eb74458dc.png)
+{% include homepage_feature_row %}
     
 
 **Developing Evolutionary Algorithms to solve Advance Engineering Problems**
@@ -32,36 +34,5 @@ porous medium. I developed my interest in analytical study and gained skills in 
 Optimization algorithms introduce efficient methods to find optimal parameters for complex equations helpful in studying the dynamics of a robot. I researched developing a new constraint handling method that challenges different evolutionary algorithms used to maximize or minimize objective functions subject to constraints. Using the socio-inspired algorithm of Cohort Intelligence and a modified probability distribution approach, and vectorized coding
 adapted from Machine Learning algorithms, I developed an efficient algorithm. I tested this algorithm and compared with different Evolutionary Algorithms for solving advanced manufacturing problems that showed considerable improvement in run-time and for finding the optimal values for the parameters under consideration. The work added to my research experience and improved my skills in MATLAB programming.
 </p>
-
-
-
-Current Projects
-------
-
-### [ICP implementation in C++](https://github.com/aryaman-patel/MobileRobotics5550#scan-matching-using-iterative-closest-point)
-
-Make sure your system has the latest library for [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page) and [PCL](https://pointclouds.org/) installed. 
-To run the source file `ICP.cpp` use the following commands:
-```
-g++ -std=c++17 -I/usr/include/eigen3 ICP.cpp -o ICP -O2 -DNDEBUG
-```
-Here, the flags: `-O2` used in the compiler to optimize the genrated code for the maximum performance. Thie flag enables a number of optimization options that can improve the speed and efficiency. The flag `-DNDEBUG` tells the compiler to disable debugging information. This improves the performance of the code by eliminating the checks and other overheads that are not necessary to build. 
- 
-The `ICP.cpp` code creates a resultant file called `result.txt` that stores the resultant points of the pointcloud.
-
-In order, to visualize the point cloud I have written an implementation using the [PCL](https://pointclouds.org/) library. Run the following commands:
-For the code to run make sure to move a copy of `pclX.txt`, `pclY.txt` and `result.txt` file to the `build` folder.
-
-```
-cd build
-cmake ..
-make
-./point_cloud_visualization
-```
-The resultant point cloud in comparision to the original ones looks like this:
-![PCL](https://user-images.githubusercontent.com/117113574/210670258-9c4e113f-fc7f-473a-b349-026e137d9d5f.png)
-
-
-
 
 
