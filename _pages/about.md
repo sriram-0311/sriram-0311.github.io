@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 homepage_feature_row:
-  - image_path: "Nanofluid.png"
+  - image_path: Nanofluid.png
     title: "Mathematical modeling of nanofluids"
 ---
 <p align="justify"> 
