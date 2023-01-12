@@ -105,7 +105,7 @@ The following is the occupancy map representation that takes in the laser scan i
 
 * We use [Gmapping](http://wiki.ros.org/gmapping) and [Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/) for SLAM, move_base for navigation, and [explore_lite](http://wiki.ros.org/explore_lite) for goal selection and filtering. To address the issue of the camera's limited field of view, we implemented a raycasting algorithm to assign "visited" states to areas within the camera's view and lidar points.
 
-* We used April tags as stand-ins for targets and the [April tag](https://pypi.org/project/apriltag/) python library to detect them in an image and estimate their relative pose. We performed extrinsic calibration to align the camera and lidar sensors using a non-linear optimization ([Pymanopt](https://pymanopt.org/)) method to minimize the Euclidean distance of the calibration plane as measured by the laser and the camera. This allowed us to transform points in the camera to the laser, giving us the accurate pose of the April tag on the map.
+* We used April tags as stand-ins for targets and the [April tag](https://pypi.org/project/apriltag/) python library to detect them in an image and estimate their relative pose. We performed extrinsic calibration to align the camera and lidar sensors using a non-linear optimization ([Pymanopt](https://pymanopt.org/)) method to minimize the Euclidean distance of the calibration plane as measured by the laser and the camera. This allowed us to transform points in the camera to the laser, giving us the accurate pose of the April tag on the map. Our implementation of extrensic calibration were inspired by the work of [Zhang and Pless](https://ieeexplore.ieee.org/abstract/document/1389752).
 
 * A simulation environment in Gazebo to test our implementation was created with april tags placed in different poses. This was based on the `turtlebot3_house.gazebo` simulation environment with [models of april tags](https://github.com/koide3/gazebo_apriltag). 
 
@@ -114,6 +114,7 @@ An isometric view of the environment -
 ![gaz_1](https://user-images.githubusercontent.com/117113574/212130101-f3038aa4-cf86-4ac6-b93c-701f862b9c25.jpg)
 
 ![gaz_2](https://user-images.githubusercontent.com/117113574/212130361-4a43167c-f185-4b3a-83d4-bae7422aa47f.jpg)
+
 
 
 
