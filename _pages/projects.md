@@ -57,7 +57,7 @@ The final output with sampled points-
 ![prm](https://user-images.githubusercontent.com/117113574/211174071-dc3a9822-6206-4694-b0da-1034e5425b76.png)
 
 - - -
-## State estimation by (Monte-Carlo) Partile Filter on a Lie Group ([GitHub](https://github.com/aryaman-patel/MobileRobotics5550#state-estimation-by-monte-carlo-partile-filter-on-a-lie-group--))
+## State estimation by (Monte-Carlo) Particle Filter on a Lie Group ([GitHub](https://github.com/aryaman-patel/MobileRobotics5550#state-estimation-by-monte-carlo-partile-filter-on-a-lie-group--))
 In this exercise, I have applied particle filtering to perform state estimation over a Lie group:
 specifically, designed and implement a particle filter to track the pose of a differential-drive
 ground robot.
