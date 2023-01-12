@@ -36,7 +36,10 @@ The resultant point cloud in comparision to the original ones looks like this:
 - - -
 ## Route planning in occupancy grid maps -
 The following figure shows a occupancy grid map, which is a convenient way to represent information of the robot's environment, and well suited to route planning algorithms.
-In this exercise, I implemented two graph-based planning algorithms, A* search and Probablistic Roadmap to perform route planning. ![occupancy_map](https://user-images.githubusercontent.com/117113574/211173947-75cc7245-a583-4129-863b-bfa58e30bc05.png)
+In this exercise, I implemented two graph-based planning algorithms, A* search and Probablistic Roadmap to perform route planning. 
+
+![occupancy_map](https://user-images.githubusercontent.com/117113574/211173947-75cc7245-a583-4129-863b-bfa58e30bc05.png)
+
 ### A* Search output -
 A* is a popular path planning algorithm that works by using a heuristic function to guide the search for a path through the environment. A* expands nodes in the search tree based on an estimate of the minimum total cost from the starting point to the goal through that node. This estimate, known as the "heuristic," guides the search towards the goal and allows A* to find optimal paths more quickly than other search algorithms. However, A* requires a complete map of the environment in advance and can be computationally expensive, as it may need to search a large portion of the space to find a solution.
 
@@ -47,7 +50,7 @@ PRM is a sampling-based path planning algorithm that works by constructing a roa
 
 The image below is the all the connected nodes of the sampled points based on the rechability check performed. 
 
-![PRM_Nodes](https://user-images.githubusercontent.com/117113574/211174058-eca6bc34-3c21-47d1-93d1-087e649228a8.png)
+![image](https://user-images.githubusercontent.com/117113574/212106435-87770213-c436-4989-adad-f3ccabb72f9e.png)
 
 The final output with sampled points-
 
@@ -70,13 +73,13 @@ The generative motion model, ![image](https://user-images.githubusercontent.com/
 
 ![image](https://user-images.githubusercontent.com/117113574/212082132-62d9d2db-faad-4f73-b453-380a7792563d.png)
 
-where $\dot{\Omega}$ is an element in the $Lie(SE(2))$ characterized by the wheel speeds $(\dot{\varphi}_l,\dot{\varphi}_r)$
+where $\dot{\Omega}$ is an element in $Lie(SE(2))$ characterized by the wheel speeds $(\dot{\varphi}_l,\dot{\varphi}_r)$
 
-* Using the particle filter propagation function we generate N = 1000 realizations of the pose of the robot at time t = 10 assuming the robot starts at origin at time t = 0. 
+* Using the particle filter propagation function, we generate N = 1000 realizations of the pose of the robot at time t = 10 assuming the robot starts at origin at time t = 0. 
 
 ![image](https://user-images.githubusercontent.com/117113574/212083864-190035e8-7a40-4f4b-8259-e96384057684.png)
 
-* Simulating the evolution of our differential drive robot’s belief over its pose while navigating using dead reckoning. Starting with an initial particle at initial pose x0 at the origin we apply particle filter propagation function from part to recursively generate sample-based approximations to the robot’s belief over its pose $x_t \in SE(2)$ at times $t \in {5,10,15,20}$. The following is the plot of the positions of the particles in each of these sample sets in a single plot, using a different color for each sample set.
+* Simulating the evolution of our differential drive robot’s belief over its pose while navigating using dead reckoning. Starting with an initial particle at initial pose $x_0$ at the origin we apply particle filter propagation function from part to recursively generate sample-based approximations to the robot’s belief over its pose $x_t \in SE(2)$ at times $t \in {5,10,15,20}$. The following is the plot of the positions of the particles in each of these sample sets in a single plot, using a different color for each sample set.
 
 ![image](https://user-images.githubusercontent.com/117113574/212085120-a4cd8d72-78e3-4cad-92bc-6d393d5fc215.png)
 
