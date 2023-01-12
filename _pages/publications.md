@@ -11,11 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign show_preprints = false %}
 {% for post in site.publications reversed %}
-  {% if post.status == "in review" %}
-    {% assign show_preprints = true %}
-  {% endif %}
+  {% include archive-single.html %}
 {% endfor %}
 
-{% if show_preprints %}
