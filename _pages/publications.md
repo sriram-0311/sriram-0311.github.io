@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-# Publications
+Publications
 
 
 Mathematical Modelling of Nanofluids.
