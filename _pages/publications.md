@@ -12,5 +12,11 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.status == "published" or post.status == "to appear" or post.status == "accepted" %}
+    {% unless post.type contains "thesis" %}
+      {% if post.include_on_website %}
+        {% include publication-single.html %}
+      {% endif %}
+    {% endunless %}
+  {% endif %}
 {% endfor %}
