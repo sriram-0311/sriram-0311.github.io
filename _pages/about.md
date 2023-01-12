@@ -17,7 +17,7 @@ This website/portfolio is a detailed representation of some of my work, feel fre
 
 Current Project I worked on -
 -------
-### [Scanmatching using ICP in C++](https://github.com/aryaman-patel/MobileRobotics5550#scan-matching-using-iterative-closest-point)
+### [Scan matching using ICP in C++](https://github.com/aryaman-patel/MobileRobotics5550#scan-matching-using-iterative-closest-point)
 This is a personal project I wished to try. In this I have implement the Iterative Closest Point (ICP) algorithm, and use it to estimate the rigid transformation that optimally aligns two 3D pointclouds. The given two pointclouds $X,Y \subset \mathbb{R}^{d}$ have an initial guess $(t_0,R_0) \in SE(d)$ for the optimal rigid registration $y = R_x + t$ aligning $X$ to $Y$. 
 
 This is the resultant point cloud -
