@@ -11,30 +11,34 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Tech. in Mechanical Engineering, Symbiosis Institute of Technology, 2021
+* M.S. in Robotics, Northeastern University, Expected 2024
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jul 2021 - Feb 2022: Executive Robotics Engineer
+  * iTrontik Smart System
+  * Project: Software development of Autonomous Mobile Robots and optical camera based navigation robots.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Feb 2021 - Jun 2021: Project Intern
+  * American Axle and Manufacturing
+  * Project: Designing of an Embedded System capale of remote communication of vibrational data for axle health management
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * C++
+  * ROS
+  * MATLAB
+  * Python
+  * Linux
+  * LATeX
+* Robotics
+  * Motion Planning
+  * Computer vision
+  * Probabilistic Robotics
+  * SLAM
+  * Robot Perception
 
 Publications
 ======
@@ -42,18 +46,3 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
