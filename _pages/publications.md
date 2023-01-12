@@ -1,11 +1,7 @@
 ---
-permalink: /
-title: "Publications"
-excerpt: "Publications"
+layout: archive
+permalink: /publications/
 author_profile: true
-redirect_from: 
-  - /publications/
-  - /publications.html
 ---
 
 # Publications
