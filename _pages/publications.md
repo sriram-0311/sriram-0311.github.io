@@ -14,6 +14,7 @@ Mathematically modeled the continuity, momentum, and energy equations of two non
 **[Numerical Simulation of Radiative MHD Sutterby Nanofluid Flow Through Porous Medium in the Presence of Hall Currents and Electroosmosis](https://doi.org/10.1007/s40819-021-00971-1)**
 
 **[Electroosmosis and transverse magnetic effects on radiative tangent hyperbolic nanofluid flow through porous medium](https://doi.org/10.1080/01430750.2020.1862912)**
+- - -
 
 Developing Evolutionary Algorithms to solve Advance Engineering Problems.
 ======
