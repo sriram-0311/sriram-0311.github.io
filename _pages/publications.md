@@ -7,7 +7,7 @@ author_profile: true
 Publications
 ======
 
-Mathematical Modelling of Nanofluids.
+## Mathematical Modelling of Nanofluids.
 Mathematically modeled the continuity, momentum, and energy equations of two non-Newtonian nanofluids. The equations were numerically solved for changes in velocity, concentration, and temperature with the changes in physical parameters, and the results plotted.
 
 **[Numerical Simulation of Radiative MHD Sutterby Nanofluid Flow Through Porous Medium in the Presence of Hall Currents and Electroosmosis](https://doi.org/10.1007/s40819-021-00971-1)**
