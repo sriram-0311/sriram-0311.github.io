@@ -3,6 +3,8 @@ layout: archive
 permalink: /projects/
 author_profile: true
 ---
+
+- - - 
 ## Scan matching using Iterative Closest Point
 In this I have implement the Iterative Closest Point (ICP) algorithm, and use it
 to estimate the rigid transformation that optimally aligns two 3D pointclouds. The given
@@ -31,6 +33,7 @@ make
 The resultant point cloud in comparision to the original ones looks like this:
 ![PCL](https://user-images.githubusercontent.com/117113574/210670258-9c4e113f-fc7f-473a-b349-026e137d9d5f.png)
 
+- - -
 ## Route planning in occupancy grid maps -
 The following figure shows a occupancy grid map, which is a convenient way to represent information of the robot's environment, and well suited to route planning algorithms.
 In this exercise, I implemented two graph-based planning algorithms, A* search and Probablistic Roadmap to perform route planning. ![occupancy_map](https://user-images.githubusercontent.com/117113574/211173947-75cc7245-a583-4129-863b-bfa58e30bc05.png)
@@ -50,7 +53,7 @@ The final output with sampled points-
 
 ![prm](https://user-images.githubusercontent.com/117113574/211174071-dc3a9822-6206-4694-b0da-1034e5425b76.png)
 
-
+- - -
 ## State estimation by (Monte-Carlo) Partile Filter on a Lie Group -
 In this exercise, I have applied particle filtering to perform state estimation over a Lie group:
 specifically, designed and implement a particle filter to track the pose of a differential-drive
@@ -62,15 +65,21 @@ $\tilde{\varphi}_l = \dot{\varphi}_l + \epsilon_l,\ \ \epsilon_l \sim N(0,\sigma
  
 $\tilde{\varphi}_r = \dot{\varphi}_r + \epsilon_r,\ \ \epsilon_r \sim N(0,\sigma_r^2)$
 
-The generative motion model $p(x_{t2} | x_{t1} , \dot{\varphi_l},\dot{\varphi_r}, r, w, \sigma_l, \sigma_r)$ that parameterizes the distribution of the pose of the robot $x_{t2} \in SE(2)$ as a function of the pose $x_{t1} \in SE(2)$ at time $t_2$ is given by the exponential map:
 
-$P(X_0 | X_t, u) = P(X_0)*exp(t * \dot{\Omega}(\dot{\varphi}_l,\dot{\varphi}_r))$
+The generative motion model, ![image](https://user-images.githubusercontent.com/117113574/212082277-86245a4c-f810-4048-86cc-bdedf9d601d3.png) that parameterizes the distribution of the pose of the robot $x_{t2} \in SE(2)$ as a function of the pose $x_{t1} \in SE(2)$ at time $t_2$ is given by the exponential map:
+
+![image](https://user-images.githubusercontent.com/117113574/212082132-62d9d2db-faad-4f73-b453-380a7792563d.png)
 
 where $\dot{\Omega}$ is an element in the $Lie(SE(2))$ characterized by the wheel speeds $(\dot{\varphi}_l,\dot{\varphi}_r)$
 
-Output by Particle Filter for the time stamps [0,5,10,15,20] with the measurement updates -
+* Using the particle filter propagation function we generate N = 1000 realizations of the pose of the robot at time t = 10 assuming the robot starts at origin at time t = 0. 
 
-![output](https://user-images.githubusercontent.com/117113574/211174996-e9fd8539-6936-4ea7-873e-179e67bd53c9.png)
+![image](https://user-images.githubusercontent.com/117113574/212083864-190035e8-7a40-4f4b-8259-e96384057684.png)
+
+* Simulating the evolution of our differential drive robot’s belief over its pose while navigating using dead reckoning. Starting with an initial particle at initial pose x0 at the origin we apply particle filter propagation function from part to recursively generate sample-based approximations to the robot’s belief over its pose $x_t \in SE(2)$ at times $t \in {5,10,15,20}$. The following is the plot of the positions of the particles in each of these sample sets in a single plot, using a different color for each sample set.
+
+![image](https://user-images.githubusercontent.com/117113574/212085120-a4cd8d72-78e3-4cad-92bc-6d393d5fc215.png)
+
 
 
 
