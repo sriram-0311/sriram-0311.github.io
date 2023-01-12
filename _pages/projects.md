@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 - - - 
-## Scan matching using Iterative Closest Point
+## Scan matching using Iterative Closest Point ([GitHub](https://github.com/aryaman-patel/MobileRobotics5550#scan-matching-using-iterative-closest-point))
 In this I have implement the Iterative Closest Point (ICP) algorithm, and use it
 to estimate the rigid transformation that optimally aligns two 3D pointclouds. The given
 two pointclouds $X,Y \subset \mathbb{R}^{d}$ have an initial guess $(t_0,R_0) \in SE(d)$ for the optimal rigid registration $y = R_x + t$ aligning $X$ to $Y$. 
@@ -34,7 +34,7 @@ The resultant point cloud in comparision to the original ones looks like this:
 ![PCL](https://user-images.githubusercontent.com/117113574/210670258-9c4e113f-fc7f-473a-b349-026e137d9d5f.png)
 
 - - -
-## Route planning in occupancy grid maps -
+## Route planning in occupancy grid maps ([GitHub](https://github.com/aryaman-patel/MobileRobotics5550#route-planning-in-occupancy-grid-maps--))
 The following figure shows a occupancy grid map, which is a convenient way to represent information of the robot's environment, and well suited to route planning algorithms.
 In this exercise, I implemented two graph-based planning algorithms, A* search and Probablistic Roadmap to perform route planning. 
 
@@ -57,7 +57,7 @@ The final output with sampled points-
 ![prm](https://user-images.githubusercontent.com/117113574/211174071-dc3a9822-6206-4694-b0da-1034e5425b76.png)
 
 - - -
-## State estimation by (Monte-Carlo) Partile Filter on a Lie Group -
+## State estimation by (Monte-Carlo) Partile Filter on a Lie Group ([GitHub](https://github.com/aryaman-patel/MobileRobotics5550#state-estimation-by-monte-carlo-partile-filter-on-a-lie-group--))
 In this exercise, I have applied particle filtering to perform state estimation over a Lie group:
 specifically, designed and implement a particle filter to track the pose of a differential-drive
 ground robot.
@@ -114,6 +114,10 @@ An isometric view of the environment -
 ![gaz_1](https://user-images.githubusercontent.com/117113574/212130101-f3038aa4-cf86-4ac6-b93c-701f862b9c25.jpg)
 
 ![gaz_2](https://user-images.githubusercontent.com/117113574/212130361-4a43167c-f185-4b3a-83d4-bae7422aa47f.jpg)
+
+The turtlebot successfully detected 13 out of 15 tags placed in the simulation environment. The Rviz visualization of the detected apriltags with the `\tf` w.r.t to the world or `\map` frame in the gazebo world simulation - 
+
+![gazebo map](https://user-images.githubusercontent.com/117113574/212136307-370daf7e-c85b-461d-a292-1a43560329e8.png)
 
 
 
