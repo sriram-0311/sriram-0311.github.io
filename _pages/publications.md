@@ -4,49 +4,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+# Publications
 
-{% include base_path %}
 
-{% assign show_preprints = false %}
-{% for post in site.publications reversed %}
-  {% if post.status == "in review" %}
-    {% assign show_preprints = true %}
-  {% endif %}
-{% endfor %}
+## Mathematical Modelling of Nanofluids.
+Mathematically modeled the continuity, momentum, and energy equations of two non-Newtonian nanofluids. The equations were numerically solved for changes in velocity, concentration, and temperature with the changes in physical parameters, and the results plotted.
 
-{% if show_preprints %}
-Pre-prints
-======
-{% endif %}
-{% for post in site.publications reversed %}
-  {% if post.status == "in review" %}
-    {% if post.include_on_website %}
-      {% include publication-single.html %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
+**[Numerical Simulation of Radiative MHD Sutterby Nanofluid Flow Through Porous Medium in the Presence of Hall Currents and Electroosmosis](https://doi.org/10.1007/s40819-021-00971-1)**
 
-Peer-Reviewed Publications
-======
-{% for post in site.publications reversed %}
-  {% if post.status == "published" or post.status == "to appear" or post.status == "accepted" %}
-    {% unless post.type contains "thesis" %}
-      {% if post.include_on_website %}
-        {% include publication-single.html %}
-      {% endif %}
-    {% endunless %}
-  {% endif %}
-{% endfor %}
+**[Electroosmosis and transverse magnetic effects on radiative tangent hyperbolic nanofluid flow through porous medium](https://doi.org/10.1080/01430750.2020.1862912)**
 
-Theses
-======
-{% for post in site.publications reversed %}
-  {% if post.type contains "thesis" %}
-    {% if post.include_on_website %}
-      {% include publication-single.html %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
+## Developing Evolutionary Algorithms to solve Advance Engineering Problems.
+Developed a novel approach to solve constrained optimization problems. The new algorithm is incorporated with a socio-inspired algorithm called Cohort Intelligence with a modified probability distribution approach created by Tanh and Modular function. The efficiency of the code was tested on Kyoto Test problems, and it showed up to 98% improvement compared to other EAs.
+
+**Solutions to Advanced Manufacturing Process Problems using Cohort Intelligence Algorithm with Improved Constraint Handeling Approaches** (Under Review)
