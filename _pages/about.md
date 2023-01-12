@@ -24,4 +24,4 @@ This is the resultant point cloud -
 
 ![IPC](https://user-images.githubusercontent.com/117113574/211952055-67412be5-07ea-4b9a-ad75-f353488a2d84.png)
 
-In this implementation I have used a library I was facinated by while going through ORB-SLAM's source code, this library is called [Eigen](https://eigen.tuxfamily.org/) which is a C++ template for linear algebra! 
+In this implementation I have used a library I was fascinated by while going through ORB-SLAM's source code, this library is called [Eigen](https://eigen.tuxfamily.org/) which is a C++ template for linear algebra! 
