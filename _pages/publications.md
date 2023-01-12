@@ -4,8 +4,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-# Publications
-
 
 ## Mathematical Modelling of Nanofluids.
 Mathematically modeled the continuity, momentum, and energy equations of two non-Newtonian nanofluids. The equations were numerically solved for changes in velocity, concentration, and temperature with the changes in physical parameters, and the results plotted.
