@@ -26,4 +26,4 @@ software_feature_row2:
 
 {% include software_feature_row %}
 
-{% include software_feature_row id="software_feature_row2" type="center" %}
+{% include software_feature_row id="software_feature_row2"%}
