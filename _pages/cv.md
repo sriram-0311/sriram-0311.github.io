@@ -16,7 +16,7 @@ Education
 
 Work experience
 ======
-* iTrontik Smart systems.
+* iTrontik Smart systems,  
     *Robotics Engineer* 
     * Created a new version of HMI using GTKmm library, utilizing advanced techniques such as event-driven programming,
   multi-threaded programming, and optimized memory management to reduce latency in the system by 70%
@@ -30,7 +30,7 @@ Work experience
   ![ezgif com-crop](https://user-images.githubusercontent.com/117113574/218287187-1833f8f4-3f40-4e02-aa97-bdc5a69fb71c.gif)
 
 
-* American Axle and Manufacturing 
+* American Axle and Manufacturing,  
   *Project Intern*
   * Devised a 95% cost-effective remote axle health monitoring system that predicts failures based on vibrational analysis,
 additionally, designed an embedded system with a GPRS module for communication from remote locations
