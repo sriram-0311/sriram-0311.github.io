@@ -11,34 +11,41 @@ redirect_from:
 
 Education
 ======
-* B.Tech. in Mechanical Engineering, Symbiosis Institute of Technology, 2021
 * M.S. in Robotics, Northeastern University, Expected 2024
+* B.Tech. in Mechanical Engineering, Symbiosis Institute of Technology, August 2021
 
 Work experience
 ======
-* Jul 2021 - Feb 2022: Executive Robotics Engineer
-  * iTrontik Smart System
-  * Project: Software development of Autonomous Mobile Robots and optical camera based navigation robots.
+* iTrontik Smart systems.
+    *Robotics Engineer* 
+    * Created a new version of HMI using GTKmm library, utilizing advanced techniques such as event-driven programming,
+  multi-threaded programming, and optimized memory management to reduce latency in the system by 70%
+  
+    * Led a team of 6 in the development of an optical sensor-based navigation robot using C++, implemented a navigation
+  system that utilizes data matrix and colored lanes for accurate localization with a precision of 10 cm
+  
+    * Developed a rack entering and picking system for an AMR that worked with 2 cm accuracy, utilizing localization and
+  mapping, path planning, perception, communication and error handling, with thorough testing and validationts
+  
+  ![ezgif com-crop](https://user-images.githubusercontent.com/117113574/218287187-1833f8f4-3f40-4e02-aa97-bdc5a69fb71c.gif)
 
-* Feb 2021 - Jun 2021: Project Intern
-  * American Axle and Manufacturing
-  * Project: Designing of an Embedded System capale of remote communication of vibrational data for axle health management
+
+* American Axle and Manufacturing 
+  *Project Intern*
+  * Devised a 95% cost-effective remote axle health monitoring system that predicts failures based on vibrational analysis,
+additionally, designed an embedded system with a GPRS module for communication from remote locations
+
+![image](https://user-images.githubusercontent.com/117113574/218287202-baeadb93-c833-474c-bf84-40fe43b09910.png)
+
   
 Skills
 ======
 * Programming
-  * C++
-  * ROS
-  * MATLAB
-  * Python
-  * Linux
-  * LATeX
+  * C++, ROS, MATLAB, Python, Linux, LATeX
 * Robotics
-  * Motion Planning
-  * Computer vision
-  * Probabilistic Robotics
-  * SLAM
-  * Robot Perception
+  * Motion Planning, Computer vision, Probabilistic Robotics, SLAM, Robot Perception
+* Libraries
+  * Eigen, GTSAM, PCL (Point Cloud Library), OpenCV
 
 Publications
 ======
