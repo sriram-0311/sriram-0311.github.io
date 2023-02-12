@@ -1,13 +1,15 @@
 # main links links
 main:
+  - title: "Publications"
+    url: /publications/
+    
   - title: "Software"
     url: /software/
     
   - title: "Feed"
     url: /projects/
     
-  - title: "Publications"
-    url: /publications/
+
 #   - title: "Teaching"
 #     url: /teaching/    
     
