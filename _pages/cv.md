@@ -53,3 +53,9 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+  
+
+[Resume-5.pdf](https://github.com/aryaman-patel/aryaman-patel.github.io/files/10715064/Resume-5.pdf)
+
+  
+  
