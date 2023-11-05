@@ -20,4 +20,6 @@ I will complete my MS in Robotics in 2024 and continue pursuing my dream of deve
 
 ## Latest Work
 
-{% include feature_row %}
+{% for feature in site.data.features %}
+- [{{ feature.title }}]({{ feature.url }})
+{% endfor %}
