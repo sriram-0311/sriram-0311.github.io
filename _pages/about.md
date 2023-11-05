@@ -10,7 +10,7 @@ redirect_from:
 
 <p style="text-align: justify">
 
-Hi! I'm Aryaman Patel, a robotics engineer pursuing my MS in Robotics at Northeastern University. I currently work as a **Research Assistant** at <a href="https://neural.lab.northeastern.edu/">NEURAL</a> (Northeastern University Robust Autonomy Lab) headed by <a href="https://david-m-rosen.github.io/">Prof. David Rosen</a> where my focus is on improving visual SLAM systems for autonomous robots.
+Hi! I'm Aryaman Patel, a robotics engineer pursuing my MS in Robotics at Northeastern University. I currently work as a <b>Research Assistant</b> at <a href="https://neural.lab.northeastern.edu/">NEURAL</a> (Northeastern University Robust Autonomy Lab) headed by <a href="https://david-m-rosen.github.io/">Prof. David Rosen</a> where my focus is on improving visual SLAM systems for autonomous robots.
 <br>
 I have dedicated significant effort to constructing Factor Graphs for Bundle Adjustment Problems, aiming to achieve computationally efficient mapping in large environments for a multi-camera-based visual-inertial navigation system. Additionally, I developed and implemented a visual place recognition module based on Bag of Words for long-term data association and loop closure detection in a multi-sensor navigation system.
 <br>
