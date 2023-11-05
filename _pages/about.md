@@ -16,15 +16,17 @@ Outside of my core research, I enjoy working on computer vision projects related
 
 I will complete my MS in Robotics in 2024 and continue pursuing my dream of developing autonomous systems that can operate safely and effectively in complex, unlabeled environments.
 
+![Screenshot-from-2023-10-02-18-15](https://github.com/aryaman-patel/aryaman-patel.github.io/assets/117113574/094c4e0d-8dbe-48a9-86dd-f7f379582ce5)
+
 ## Latest Work
 
 ### Multi-Camera Visual Interial Navigation
 
 This project was in collaboration with Toyota Research Institute. The deigned system is capable of mapping an environment and use the generated maps for precise heading estimation for the downstream tasks of control. Our team used a multi-camera, IMU and GPS fusion to obtain an order of magnitude sparse map of the environment. The part that enable this precise localization is due to the accurate Visual Place Recognition System with loop closure that reduces the drifts during the mapping secession. To optimize with computational efficiency over large environments, I implemented reduced camera model, which is an elimination procedure corresponding to the Schur complement, which allows the solving of linear system in a subset of variables
 
-![Multi-camera GVIO]()
 
-### [Scan matching using ICP in C++](https://github.com/aryaman-patel/MobileRobotics5550#scan-matching-using-iterative-closest-point)
+
+### Scan matching using ICP in C++ [GitHub](https://github.com/aryaman-patel/MobileRobotics5550#scan-matching-using-iterative-closest-point)
 
 Implementing the Iterative Closest Point (ICP) algorithm, and use it to estimate the rigid transformation that optimally aligns two 3D pointclouds. The given two pointclouds $X,Y \subset \mathbb{R}^{d}$ have an initial guess $(t_0,R_0) \in SE(d)$ for the optimal rigid registration $y = R_x + t$ aligning $X$ to $Y$.
 
