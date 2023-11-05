@@ -1,13 +1,13 @@
 # main links links
 main:
+  - title: "CV"
+    url: /files/Resume_A.pdf
+    
   - title: "Publications"
     url: /publications/
     
-  - title: "Software"
-    url: /software/
-    
-  - title: "Feed"
-    url: /projects/
+#  - title: "Feed"
+#    url: /projects/
     
 
 #   - title: "Teaching"
@@ -19,6 +19,6 @@ main:
 #   - title: "Blog Posts"
 #     url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+#  - title: "CV"
+#    url: /cv/
     
