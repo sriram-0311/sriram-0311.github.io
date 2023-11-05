@@ -12,11 +12,11 @@ redirect_from:
 
 Hi! I'm Aryaman Patel, a robotics engineer pursuing my MS in Robotics at Northeastern University. I currently work as a <b>Research Assistant</b> at <a href="https://neural.lab.northeastern.edu/">NEURAL</a> (Northeastern University Robust Autonomy Lab) headed by <a href="https://david-m-rosen.github.io/">Prof. David Rosen</a> where my focus is on improving visual SLAM systems for autonomous robots.
 <br>
-I have dedicated significant effort to constructing Factor Graphs for Bundle Adjustment Problems, aiming to achieve computationally efficient mapping in large environments for a multi-camera-based visual-inertial navigation system. Additionally, I developed and implemented a visual place recognition module based on Bag of Words for long-term data association and loop closure detection in a multi-sensor navigation system.
+I have dedicated significant effort to constructing <b>Factor Graphs for Bundle Adjustment</b> Problems, aiming to achieve computationally efficient mapping in large environments for a multi-camera-based visual-inertial navigation system. Additionally, I developed and implemented a <b>visual place recognition</b> module based on Bag of Words for long-term data association and loop closure detection in a multi-sensor navigation system.
 <br>
-Outside of my core research, I enjoy working on computer vision projects related to image restoration, intrinsic image decomposition, and 3D scene understanding. These include image deblurring, shadow decomposition, stereo depth mapping, and more. I am passionate about pushing the boundaries of visual perception to enable reliable autonomy in the real world. You can view some of my work on <a href="https://github.com/aryaman-patel">GitHub</a> or learn more about my current robotics research at <a href="https://neural.lab.northeastern.edu/">NEURAL</a>.
+Outside of my core research, I enjoy working on computer vision projects related to image restoration, intrinsic image decomposition, and 3D scene understanding. These include intrinsic image decomposition, shadow decomposition, stereo depth mapping, and more. I am passionate about pushing the boundaries of visual perception to enable reliable autonomy in the real world. You can view some of my work on <a href="https://github.com/aryaman-patel">GitHub</a> or learn more about my current robotics research at <a href="https://neural.lab.northeastern.edu/">NEURAL</a>. Please feel free to reach out to me!
 <br>
-I will complete my MS in Robotics in 2024 and continue pursuing my dream of developing autonomous systems that can operate safely and effectively in complex, unlabeled environments.
+I will complete my MS in Robotics in <b>2024</b> and continue pursuing my dream of developing autonomous systems that can operate safely and effectively in complex, unlabeled environments.
 
 </p>
 
