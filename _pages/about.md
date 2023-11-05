@@ -16,7 +16,6 @@ Outside of my core research, I enjoy working on computer vision projects related
 
 I will complete my MS in Robotics in 2024 and continue pursuing my dream of developing autonomous systems that can operate safely and effectively in complex, unlabeled environments.
 
-![Screenshot-from-2023-10-02-18-15](https://github.com/aryaman-patel/aryaman-patel.github.io/assets/117113574/094c4e0d-8dbe-48a9-86dd-f7f379582ce5)
 
 ## Latest Work
 
@@ -24,7 +23,7 @@ I will complete my MS in Robotics in 2024 and continue pursuing my dream of deve
 
 This project was in collaboration with Toyota Research Institute. The deigned system is capable of mapping an environment and use the generated maps for precise heading estimation for the downstream tasks of control. Our team used a multi-camera, IMU and GPS fusion to obtain an order of magnitude sparse map of the environment. The part that enable this precise localization is due to the accurate Visual Place Recognition System with loop closure that reduces the drifts during the mapping secession. To optimize with computational efficiency over large environments, I implemented reduced camera model, which is an elimination procedure corresponding to the Schur complement, which allows the solving of linear system in a subset of variables
 
-
+![Screenshot-from-2023-10-02-18-15](https://github.com/aryaman-patel/aryaman-patel.github.io/assets/117113574/094c4e0d-8dbe-48a9-86dd-f7f379582ce5)
 
 ### Scan matching using ICP in C++ [GitHub](https://github.com/aryaman-patel/MobileRobotics5550#scan-matching-using-iterative-closest-point)
 
