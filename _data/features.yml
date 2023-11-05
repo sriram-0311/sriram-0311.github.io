@@ -7,7 +7,7 @@
   btn_class: "btn--primary"
 
 - title: "Scan matching using ICP in C++"
-  excerpt: "Implementing the Iterative Closest Point (ICP) algorithm, and use it to estimate the rigid transformation that optimally aligns two 3D pointclouds. The given two pointclouds $X,Y \subset \mathbb{R}^{d}$ have an initial guess $(t_0,R_0) \in SE(d)$ for the optimal rigid registration $y = R_x + t$ aligning $X$ to $Y$."
+  excerpt: "Implementing the Iterative Closest Point (ICP) algorithm, and use it to estimate the rigid transformation that optimally aligns two 3D pointclouds. The given two pointclouds $X,Y \\subset \\mathbb{R}^{d}$ have an initial guess $(t_0,R_0) \\in SE(d)$ for the optimal rigid registration $y = R_x + t$ aligning $X$ to $Y$."
   image_path: "software/icp.png"
   alt: "IPC"
   url: "https://github.com/aryaman-patel/MobileRobotics5550#scan-matching-using-iterative-closest-point"
