@@ -3,8 +3,8 @@ main:
   - title: "CV"
     url: /files/RAMESH_ANUSHSRIRAM_ROBOTICS_LATEST.pdf
     
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
     
 #  - title: "Feed"
 #    url: /projects/
