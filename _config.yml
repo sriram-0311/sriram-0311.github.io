@@ -9,9 +9,9 @@
 locale                   : "en-US"
 title                    : "Aryaman Patel"
 title_separator          : "-"
-name                     : &name "Aryaman Patel"
+name                     : &name "Anush Sriram Ramesh"
 description              : &description "MS Robotics at Northeastern University."
-url                      : https://aryaman-patel.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://sriram-0311.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/aryaman-patel.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Aryaman Patel"
-  avatar           : "profile_photo.png"
-  bio              : "Computer Vision - Perception"
+  avatar           : "bio_photo.JPG"
+  bio              : "Perception Engineer"
   location         : "Boston, MA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=8I_26uEAAAAJ&hl=en"
-  email            : "patel.aryam@northeastern.edu"
+  googlescholar    :
+  email            : "sriramvsai97@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "aryaman-patel"
+  github           : "sriram-0311"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://in.linkedin.com/in/aryaman-patel-ab4504154?trk=people-guest_people_search-card"
+  linkedin         : "www.linkedin.com/in/anush-sriram-ramesh-b3185414b"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
