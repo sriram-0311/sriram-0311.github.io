@@ -10,6 +10,12 @@ redirect_from:
 
 <p style="text-align: justify">
 
+Hi! I'm Anush Sriram Ramesh, a passionate robotics engineer, Master's Graduate in Robotics from Northeastern University. I worked as a <b>Research Assistant</b> at <a href="https://neural.lab.northeastern.edu/">NEURAL</a> (Northeastern University Robust Autonomy Lab) headed by <a href="https://david-m-rosen.github.io/">Prof. David Rosen</a>, I’m focused on advancing visual SLAM systems to empower autonomous robots. My work involves building computationally efficient Factor Graphs for Bundle Adjustment Problems to enable large-scale mapping in multi-camera visual-inertial navigation systems. I’ve also developed a visual place recognition module using Bag of Words for long-term data association and loop closure detection in multi-sensor navigation systems.
+
+Beyond my core research, I’m deeply excited about computer vision projects, ranging from image restoration and shadow decomposition to stereo depth mapping and 3D scene understanding. I thrive on exploring new ways to push the boundaries of visual perception, driving reliable autonomy in the real world. My ultimate goal is to develop autonomous systems that can safely and effectively navigate complex, unlabeled environments.
+
+You can check out my work on GitHub or learn more about my research at NEURAL. I’m always eager to connect and collaborate—feel free to reach out! Let’s shape the future of robotics together!
+
 Hi! I'm Aryaman Patel, a robotics engineer pursuing my MS in Robotics at Northeastern University. I currently work as a <b>Research Assistant</b> at <a href="https://neural.lab.northeastern.edu/">NEURAL</a> (Northeastern University Robust Autonomy Lab) headed by <a href="https://david-m-rosen.github.io/">Prof. David Rosen</a> where my focus is on improving visual SLAM systems for autonomous robots.
 <br>
 I have dedicated significant effort to constructing <b>Factor Graphs for Bundle Adjustment</b> Problems, aiming to achieve computationally efficient mapping in large environments for a multi-camera-based visual-inertial navigation system. Additionally, I developed and implemented a <b>visual place recognition</b> module based on Bag of Words for long-term data association and loop closure detection in a multi-sensor navigation system.
