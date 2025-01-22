@@ -11,7 +11,7 @@ redirect_from:
 <p style="text-align: justify">
 
 As a robotics engineer and recent Master's graduate from Northeastern University, I'm passionate about advancing visual SLAM systems for autonomous robots. My work at the Northeastern University Robust Autonomy Lab (NEURAL) focuses on developing computationally efficient Factor Graphs for Bundle Adjustment Problems and creating visual place recognition modules for multi-sensor navigation systems. I thrive on challenges that push the boundaries of visual perception in robotics.
-
+<br>
 My expertise extends beyond SLAM to various computer vision projects, including image restoration, stereo depth mapping, and 3D scene understanding. I'm particularly adept at applying deep learning models to solve complex perception challenges in robotics. My goal is to develop autonomous systems that can navigate complex, unlabeled environments safely and effectively. I'm always eager to collaborate on innovative projects that shape the future of robotics and computer vision.
 
 </p>
