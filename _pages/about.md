@@ -10,11 +10,9 @@ redirect_from:
 
 <p style="text-align: justify">
 
-Hi! I'm Anush Sriram Ramesh, a passionate robotics engineer, Master's Graduate in Robotics from Northeastern University. I worked as a <b>Research Assistant</b> at <a href="https://neural.lab.northeastern.edu/">NEURAL</a> (Northeastern University Robust Autonomy Lab) headed by <a href="https://david-m-rosen.github.io/">Prof. David Rosen</a>, I’m focused on advancing visual SLAM systems to empower autonomous robots. My work involves building computationally efficient Factor Graphs for Bundle Adjustment Problems to enable large-scale mapping in multi-camera visual-inertial navigation systems. I’ve also developed a visual place recognition module using Bag of Words for long-term data association and loop closure detection in multi-sensor navigation systems.
+As a robotics engineer and recent Master's graduate from Northeastern University, I'm passionate about advancing visual SLAM systems for autonomous robots. My work at the Northeastern University Robust Autonomy Lab (NEURAL) focuses on developing computationally efficient Factor Graphs for Bundle Adjustment Problems and creating visual place recognition modules for multi-sensor navigation systems. I thrive on challenges that push the boundaries of visual perception in robotics.
 
-Beyond my core research, I’m deeply excited about computer vision projects, ranging from image restoration and shadow decomposition to stereo depth mapping and 3D scene understanding. I thrive on exploring new ways to push the boundaries of visual perception, driving reliable autonomy in the real world. My ultimate goal is to develop autonomous systems that can safely and effectively navigate complex, unlabeled environments.
-
-You can check out my work on GitHub or learn more about my research at NEURAL. I’m always eager to connect and collaborate—feel free to reach out! Let’s shape the future of robotics together!
+My expertise extends beyond SLAM to various computer vision projects, including image restoration, stereo depth mapping, and 3D scene understanding. I'm particularly adept at applying deep learning models to solve complex perception challenges in robotics. My goal is to develop autonomous systems that can navigate complex, unlabeled environments safely and effectively. I'm always eager to collaborate on innovative projects that shape the future of robotics and computer vision.
 
 </p>
 
