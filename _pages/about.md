@@ -10,9 +10,19 @@ redirect_from:
 
 <p style="text-align: justify">
 
-As a robotics engineer and recent Master's graduate from Northeastern University, I'm passionate about advancing visual SLAM systems for autonomous robots. My work at the Northeastern University Robust Autonomy Lab (NEURAL) focuses on developing computationally efficient Factor Graphs for Bundle Adjustment Problems and creating visual place recognition modules for multi-sensor navigation systems. I thrive on challenges that push the boundaries of visual perception in robotics.
+As a robotics engineer and Master's graduate from Northeastern University, I'm deeply passionate about advancing **perception systems for autonomous navigation** through cutting-edge research and industry collaboration. My expertise spans the full spectrum of perception technologies, from **traditional model-based approaches** like factor graph optimization and geometric SLAM to **deep learning model-free methods** including transformer architectures and end-to-end neural networks.
+
 <br>
-My expertise extends beyond SLAM to various computer vision projects, including image restoration, stereo depth mapping, and 3D scene understanding. I'm particularly adept at applying deep learning models to solve complex perception challenges in robotics. My goal is to develop autonomous systems that can navigate complex, unlabeled environments safely and effectively. I'm always eager to collaborate on innovative projects that shape the future of robotics and computer vision.
+
+At Northeastern University's Robust Autonomy Lab (NEURAL) and through industry partnerships with **Toyota Research Institute**, I've developed production-ready perception systems that bridge the gap between academic research and real-world deployment. My work includes engineering **real-time multi-camera visual-inertial SLAM systems** with sub-10ms latency, implementing **DETR-based panoptic segmentation** for 360-degree scene understanding, and creating **robust sensor fusion architectures** that maintain performance across diverse environmental conditions.
+
+<br>
+
+I excel at leveraging both paradigms: employing **classical geometric methods** like Bundle Adjustment, factor graphs, and visual odometry for precise localization, while simultaneously harnessing **modern deep learning** through transformer architectures, temporal consistency networks, and multi-modal fusion for semantic scene understanding. This dual expertise allows me to architect comprehensive autonomous navigation systems that combine the reliability of model-based approaches with the adaptability of learned representations.
+
+<br>
+
+My ultimate goal is to develop **safety-critical perception systems** that enable autonomous vehicles to navigate complex, dynamic environments with human-level understanding and beyond-human reliability. I'm always eager to collaborate on innovative projects that push the boundaries of what's possible in autonomous navigation, whether through advancing SLAM algorithms, developing novel computer vision architectures, or creating production-scale perception pipelines for next-generation autonomous systems.
 
 </p>
 
