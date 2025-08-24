@@ -10,19 +10,19 @@ redirect_from:
 
 <p style="text-align: justify">
 
-As a robotics engineer and Master's graduate from Northeastern University, I'm deeply passionate about advancing **perception systems for autonomous navigation** through cutting-edge research and industry collaboration. My expertise spans the full spectrum of perception technologies, from **traditional model-based approaches** like factor graph optimization and geometric SLAM to **deep learning model-free methods** including transformer architectures and end-to-end neural networks.
+As a robotics engineer and Master's graduate from Northeastern University, I'm deeply passionate about advancing <b>perception systems for autonomous navigation</b> through cutting-edge research and industry collaboration. My expertise spans the full spectrum of perception technologies, from <b>traditional model-based approaches</b> like factor graph optimization and geometric SLAM to <b>deep learning model-free methods</b> including transformer architectures and end-to-end neural networks.
 
 <br>
 
-At Northeastern University's Robust Autonomy Lab (NEURAL) and through industry partnerships with **Toyota Research Institute**, I've developed production-ready perception systems that bridge the gap between academic research and real-world deployment. My work includes engineering **real-time multi-camera visual-inertial SLAM systems** with sub-10ms latency, implementing **DETR-based panoptic segmentation** for 360-degree scene understanding, and creating **robust sensor fusion architectures** that maintain performance across diverse environmental conditions.
+At Northeastern University's Robust Autonomy Lab (NEURAL) and through industry partnerships with <b>Toyota Research Institute</b>, I've developed production-ready perception systems that bridge the gap between academic research and real-world deployment. My work includes engineering <b>real-time multi-camera visual-inertial SLAM systems</b> with sub-10ms latency, implementing <b>DETR-based panoptic segmentation</b> for 360-degree scene understanding, and creating <b>robust sensor fusion architectures</b> that maintain performance across diverse environmental conditions.
 
 <br>
 
-I excel at leveraging both paradigms: employing **classical geometric methods** like Bundle Adjustment, factor graphs, and visual odometry for precise localization, while simultaneously harnessing **modern deep learning** through transformer architectures, temporal consistency networks, and multi-modal fusion for semantic scene understanding. This dual expertise allows me to architect comprehensive autonomous navigation systems that combine the reliability of model-based approaches with the adaptability of learned representations.
+I excel at leveraging both paradigms: employing <b>classical geometric methods</b> like Bundle Adjustment, factor graphs, and visual odometry for precise localization, while simultaneously harnessing <b>modern deep learning</b> through transformer architectures, temporal consistency networks, and multi-modal fusion for semantic scene understanding. This dual expertise allows me to architect comprehensive autonomous navigation systems that combine the reliability of model-based approaches with the adaptability of learned representations.
 
 <br>
 
-My ultimate goal is to develop **safety-critical perception systems** that enable autonomous vehicles to navigate complex, dynamic environments with human-level understanding and beyond-human reliability. I'm always eager to collaborate on innovative projects that push the boundaries of what's possible in autonomous navigation, whether through advancing SLAM algorithms, developing novel computer vision architectures, or creating production-scale perception pipelines for next-generation autonomous systems.
+My ultimate goal is to develop <b>safety-critical perception systems</b> that enable autonomous vehicles to navigate complex, dynamic environments with human-level understanding and beyond-human reliability. I'm always eager to collaborate on innovative projects that push the boundaries of what's possible in autonomous navigation, whether through advancing SLAM algorithms, developing novel computer vision architectures, or creating production-scale perception pipelines for next-generation autonomous systems.
 
 </p>
 
