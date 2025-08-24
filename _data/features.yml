@@ -1,5 +1,5 @@
 
-- title: "Multi-Camera Visual Inertial SLAM System"
+- title: "Real-Time Multi-Camera Visual-Inertial SLAM with Factor Graph Optimization"
   excerpt: "Engineered a production-ready, real-time multi-camera visual-inertial SLAM system in C++ with GTSAM backend optimization, developed in collaboration with Toyota Research Institute. Implemented robust multi-sensor fusion architecture integrating stereo/multi-camera arrays, IMU, and GPS for autonomous navigation in challenging environments. Key innovations include: <b>Factor Graph Optimization</b> with Schur complement-based elimination for computational efficiency, <b>Visual Place Recognition</b> with DBoW2-based loop closure detection, <b>Adaptive Relocalization</b> system with coarse-to-fine pose estimation, and <b>Real-time Performance</b> optimized for large-scale deployment. System demonstrates state-of-the-art accuracy on standard benchmarks while maintaining sub-10ms processing latency. Features comprehensive ROS integration, extensive unit testing, and modular architecture supporting various camera configurations. Successfully deployed for autonomous vehicle navigation, demonstrating robust performance across diverse lighting conditions, dynamic environments, and GPS-denied scenarios."
   image_path: "images/software/SLAM.gif"
   url: "https://github.com/sriram-0311/MC-SLAM"
