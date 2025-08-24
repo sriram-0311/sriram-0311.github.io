@@ -4,8 +4,8 @@
   image_path: "images/software/SLAM.gif"
   url: "https://github.com/sriram-0311/MC-SLAM"
 
-- title: "Panoptic Segmentation"
-  excerpt: "Our project leverages the <b>DETR model</b> for panoptic segmentation in computer vision. We adapt DETRs architecture for accurate 'stuff' and 'things' class distinction and fine-tune it on Cityscapes datasets. Our focus is on real-time applications and robust evaluation metrics like panoptic quality. By optimizing for challenging scenarios, our work aims to advance scene understanding in autonomous driving, extend this model towards Video Panoptic Segmentation."
+- title: "End-to-End DETR-Based Video Panoptic Segmentation for Autonomous Navigation"
+  excerpt: "Developed a production-scale deep learning system for real-time scene understanding in autonomous vehicles using transformer-based DETR architecture. Implemented end-to-end training pipeline for multi-camera panoramic video panoptic segmentation, achieving temporally consistent instance tracking across 5-camera arrays. Key technical contributions include: <b>Custom DETR Architecture</b> adaptation for video sequences with temporal consistency constraints, <b>Multi-Camera Fusion</b> for 360-degree environmental perception, <b>Instance Tracking</b> maintaining object identity across time and camera views, and <b>Real-time Inference</b> optimized for autonomous driving applications. System trained on Cityscapes dataset with custom data augmentation and loss functions for robust 'stuff' vs 'things' classification. Achieved state-of-the-art Panoptic Quality metrics while maintaining real-time performance. Features modular PyTorch implementation with comprehensive evaluation metrics and deployment-ready inference pipeline. Successfully demonstrates advanced computer vision expertise in transformer architectures, multi-modal sensor fusion, and production ML systems for safety-critical autonomous navigation."
   image_path: "images/software/Panoptic.gif"
   url: "https://github.com/sriram-0311/DETR-PS"
 
