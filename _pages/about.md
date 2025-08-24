@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<p style="text-align: justify">
+<p style="text-align: justify; font-size: 14px;">
 
 As a robotics engineer and Master's graduate from Northeastern University, I'm deeply passionate about advancing <b>perception systems for autonomous navigation</b> through cutting-edge research and industry collaboration. My expertise spans the full spectrum of perception technologies, from <b>traditional model-based approaches</b> like factor graph optimization and geometric SLAM to <b>deep learning model-free methods</b> including transformer architectures and end-to-end neural networks.
 
