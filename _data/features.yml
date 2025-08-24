@@ -12,7 +12,7 @@
 - title: "Removing Motion Blur"
   excerpt: "Deblurring images is challenging due to the ill-posed nature of the problem. Traditional methods rely on informative priors, but this paper suggests learning them from the data. By focusing on motion flow maps, a Fully Convolutional Neural Network can effectively recover images. Synthetic data with simulated flows aids in calculating blur kernels for non-blind deconvolution, enhancing image recovery."
   image_path: "images/software/MotionBlur.png"
-  url: "https://github.com/aryaman-patel/motion-blur"
+  url: "https://github.com/sriram-0311/motion-blur.git"
 
 - title: "Image Mosaicing and Warping"
   excerpt: "This project aims to stitch multiple images together to form a panorama. The process involves feature detection, feature matching, and image warping. The feature detection algorithm used is the Harris Corner Detector. The feature matching algorithm used is the brute force matcher. The image warping algorithm used is the inverse distance weighted interpolation."
@@ -22,15 +22,15 @@
 - title: "Motion Detection"
   excerpt: "In Computer Vision it is often helpful to discard unnecessary parts of images to focus only on essential sections. In the case of doing an analysis of dynamic objects in a static environment, removing the static background and detecting the moving objects can provide an excellent first step. In this project multiple spatial and temporal filtering techniques are implemented in C++ to detect motion in image sequences with static backgrounds. In particular, absolute difference and Prewitt temporal masking are implemente and compared to a derivative of a gaussian filter."
   image_path: "images/software/MotionDetection.gif"
-  url: "https://github.com/sriram-0311/cv_motion_detection"
+  url: "https://github.com/sriram-0311/cv_motion_detection.git"
 
-- title: "Mobile Robotics Project"
-  excerpt: "We designed a robot for environment mapping and April tag recognition, this included writing the custom code for mapping from Laser scans, using frontier exploration. Our work included custom mapping modules and a novel approach for camera-to-1D lidar calibration, a challenging problem due to the lidar's dimensionality. Leveraging linear algebra, we solved a non-linear least-square optimization problem, significantly reducing calibration errors."
+- title: "Camera-Guided Autonomous Search and Rescue with Modified ROS Exploration"
+  excerpt: "Engineered an innovative autonomous search and rescue system using TurtleBot3 that achieved <b>86% victim detection rate (19/22 April tags)</b> by fundamentally reimagining exploration algorithms. Addressed critical limitation in standard ROS frontier exploration where <b>LiDAR-based exploration</b> missed victims outside camera field-of-view. Developed novel <b>Camera-Aware Exploration Strategy</b> by modifying gmapping and explore_lite packages to incorporate camera constraints into exploration planning. Key innovation: created <b>Binary Camera Mask Integration</b> that overlays camera field-of-view onto exploration maps, ensuring the robot prioritizes areas visible to its camera sensor. Technical implementation included <b>Custom ROS Package Modification</b> of core exploration algorithms, <b>Multi-Sensor Fusion</b> combining 2D LiDAR mapping with pinhole camera detection, and <b>Real-time Path Planning</b> optimized for victim discovery rather than pure exploration efficiency. System demonstrates superior performance compared to standard frontier exploration, crucial for time-critical rescue operations where comprehensive area coverage with visual confirmation is essential for mission success."
   image_path: "images/software/MRProject.gif"
-  url: "https://github.com/sriram-0311/MobileRoboticsProject"
+  url: "https://github.com/sriram-0311/Search-and-Rescue-with-Turtlebot.git"
 
 - title: "Mobile Robotics Algorithms"
   excerpt: "Implementing some of the algorithms from the Mobile Robotics Course. These include A* Path Planning, Particle Filter, and Iterative Closest Point."
   image_path: "images/software/MobileRobotics.gif"
-  url: "https://github.com/sriram-0311/MobileRobotics5550#scan-matching-using-iterative-closest-point"
+  url: "https://github.com/sriram-0311/MobileRobotics5550.git"
 
