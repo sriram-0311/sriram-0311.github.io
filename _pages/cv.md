@@ -11,51 +11,65 @@ redirect_from:
 
 Education
 ======
-* M.S. in Robotics, Northeastern University, Expected 2024
+* M.S. in Robotics, Northeastern University, December 2023
 * B.Tech. in Mechanical Engineering, Symbiosis Institute of Technology, August 2021
 
-Work experience
+Work Experience
 ======
-* iTrontik Smart systems,  
-    *Robotics Engineer* 
-    * Created a new version of HMI using GTKmm library, utilizing advanced techniques such as event-driven programming,
-  multi-threaded programming, and optimized memory management to reduce latency in the system by 70%
-  
-    * Led a team of 6 in the development of an optical sensor-based navigation robot using C++, implemented a navigation
-  system that utilizes data matrix and colored lanes for accurate localization with a precision of 10 cm
-  
-    * Developed a rack entering and picking system for an AMR that worked with 2 cm accuracy, utilizing localization and
-  mapping, path planning, perception, communication and error handling, with thorough testing and validationts
-  
-  ![ezgif com-crop](https://user-images.githubusercontent.com/117113574/218287187-1833f8f4-3f40-4e02-aa97-bdc5a69fb71c.gif)
+* **Lucid Motors** (May 2024 - Present)  
+    *Perception Engineer - Advanced Driver Assistance Systems*
+    * Developing perception algorithms for autonomous driving systems and ADAS features
+    * Working on computer vision and sensor fusion for vehicle perception stack
+    * Contributing to safety-critical perception systems for electric autonomous vehicles
 
+* **Northeastern University - Robust Autonomy Lab (NEURAL)** (January 2023 - December 2023)  
+    *Graduate Research Assistant*
+    * Collaborated with Toyota Research Institute on multi-camera visual-inertial SLAM systems
+    * Developed production-ready SLAM algorithms with factor graph optimization using GTSAM
+    * Implemented real-time multi-sensor fusion architectures for autonomous navigation
+    * Achieved sub-10ms processing latency for real-time autonomous vehicle applications
 
-* American Axle and Manufacturing,  
-  *Project Intern*
-  * Devised a 95% cost-effective remote axle health monitoring system that predicts failures based on vibrational analysis,
-additionally, designed an embedded system with a GPRS module for communication from remote locations
+* **iTrontik Smart Systems** (August 2021 - December 2022)  
+    *Robotics Engineer*
+    * Created advanced HMI using GTKmm library with event-driven programming and multi-threading
+    * Reduced system latency by 70% through optimized memory management techniques
+    * Led team of 6 in developing optical sensor-based navigation robot using C++
+    * Implemented navigation system utilizing data matrix and colored lanes with 10cm precision
+    * Developed rack entering and picking system for AMR with 2cm accuracy
 
-![image](https://user-images.githubusercontent.com/117113574/218287202-baeadb93-c833-474c-bf84-40fe43b09910.png)
+* **American Axle and Manufacturing** (May 2021 - July 2021)  
+    *Project Intern*
+    * Designed 95% cost-effective remote axle health monitoring system using vibrational analysis
+    * Developed embedded system with GPRS module for remote communication and predictive maintenance
 
-  
-Skills
+Technical Skills
 ======
-* Programming
-  * C++, ROS, MATLAB, Python, Linux, LATeX
-* Robotics
-  * Motion Planning, Computer vision, Probabilistic Robotics, SLAM, Robot Perception
-* Libraries
-  * Eigen, GTSAM, PCL (Point Cloud Library), OpenCV
+* **Programming Languages**
+  * C++, Python, MATLAB, JavaScript, Linux/Unix, LaTeX
+* **Robotics & Computer Vision**
+  * SLAM, Visual-Inertial Odometry, Multi-Sensor Fusion, Motion Planning
+  * Computer Vision, Deep Learning, Transformer Architectures, Panoptic Segmentation
+  * Factor Graph Optimization, Probabilistic Robotics, Real-time Systems
+* **Frameworks & Libraries**
+  * ROS/ROS2, GTSAM, OpenCV, PCL (Point Cloud Library), Eigen, PyTorch
+  * DBoW2, OpenGV, Pangolin, DETR, Boost
+
+Research & Projects
+======
+* **Real-Time Multi-Camera Visual-Inertial SLAM** (Toyota Research Institute Collaboration)
+  * Production-ready SLAM system with factor graph optimization and sub-10ms latency
+* **End-to-End DETR Video Panoptic Segmentation** for Autonomous Navigation
+  * Deep learning system for real-time scene understanding with temporal consistency
+* **Camera-Guided Search and Rescue System** (86% victim detection rate)
+  * Modified ROS exploration algorithms for camera-aware autonomous navigation
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-  
 
-[Resume-5.pdf](https://github.com/aryaman-patel/aryaman-patel.github.io/files/10715064/Resume-5.pdf)
+**Download Full Resume:** [RAMESH_ANUSHSRIRAM.pdf](/files/RAMESH_ANUSHSRIRAM.pdf)
 
   
   
