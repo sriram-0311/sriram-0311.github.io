@@ -16,43 +16,51 @@ Education
 
 Work Experience
 ======
-* **Lucid Motors** (May 2024 - Present)  
-    *Perception Engineer - Advanced Driver Assistance Systems*
-    * Developing perception algorithms for autonomous driving systems and ADAS features
-    * Working on computer vision and sensor fusion for vehicle perception stack
-    * Contributing to safety-critical perception systems for electric autonomous vehicles
+* **Lucid Motors** (July 2024 - Present)  
+    *Embedded Software Developer II* | Newark, CA
+    * Design comprehensive test specifications and automated CAPL test frameworks for validating L4 ECU features
+    * Build modular Python-based software tools for efficient data analysis and reporting across multiple programs
+    * Define and optimize end-to-end test strategies, triage critical issues, and collaborate with engineering teams
+    * Resolve and validate design improvements for advanced automotive systems
 
-* **Northeastern University - Robust Autonomy Lab (NEURAL)** (January 2023 - December 2023)  
-    *Graduate Research Assistant*
-    * Collaborated with Toyota Research Institute on multi-camera visual-inertial SLAM systems
-    * Developed production-ready SLAM algorithms with factor graph optimization using GTSAM
-    * Implemented real-time multi-sensor fusion architectures for autonomous navigation
-    * Achieved sub-10ms processing latency for real-time autonomous vehicle applications
+* **Northeastern University - NEURAL** (January 2023 - April 2024)  
+    *Research Assistant* | Boston, MA
+    * Developed real-time, multi-camera visual perception system in C++ for large-scale 3D scene understanding
+    * Engineered high-performance optimization back-end using C++ and GTSAM with sparse factor graph architecture
+    * Applied traditional computer vision algorithms for robust place recognition with Bag-of-Words (BoW) module
+    * Validated system robustness through real-world testing across diverse lighting and hardware conditions
 
-* **iTrontik Smart Systems** (August 2021 - December 2022)  
-    *Robotics Engineer*
-    * Created advanced HMI using GTKmm library with event-driven programming and multi-threading
-    * Reduced system latency by 70% through optimized memory management techniques
-    * Led team of 6 in developing optical sensor-based navigation robot using C++
-    * Implemented navigation system utilizing data matrix and colored lanes with 10cm precision
-    * Developed rack entering and picking system for AMR with 2cm accuracy
+* **Lucid Motors** (May 2023 - August 2023)  
+    *Embedded Software Developer Intern* | Newark, CA
+    * Developed fully automated static memory analysis tool for graphical visualization of Tri-Core platform ECUs
+    * Enabled robust AUTOSAR build configuration for in-house platform ECUs with automated Python checks
+    * Analyzed per-core, per-component memory usage for advanced automotive embedded systems
 
-* **American Axle and Manufacturing** (May 2021 - July 2021)  
-    *Project Intern*
-    * Designed 95% cost-effective remote axle health monitoring system using vibrational analysis
-    * Developed embedded system with GPRS module for remote communication and predictive maintenance
+* **Bosch Global Software Technologies** (June 2019 - March 2022)  
+    *Senior Embedded Software Developer* | Coimbatore, India
+    * Wrote clean, modular C/C++ software for production automotive systems on QNX RTOS, Android, and AUTOSAR
+    * Developed customer-facing features for Ethernet, Bluetooth, and Wi-Fi modules using multithreading
+    * Enforced MISRA standards using COVERITY static analysis, maintained 95%+ unit test coverage
+    * Built automated testing pipelines with Python, boosting CI efficiency by 400%
+
+* **Bosch Global Software Technologies** (December 2018 - May 2019)  
+    *Robotics Intern* | Coimbatore, India
+    * Utilized computer vision algorithms with OpenCV and Python for automated robotic calibration
+    * Successfully identified and located connector pins in complex hardware for automated testing procedures
 
 Technical Skills
 ======
 * **Programming Languages**
-  * C++, Python, MATLAB, JavaScript, Linux/Unix, LaTeX
-* **Robotics & Computer Vision**
-  * SLAM, Visual-Inertial Odometry, Multi-Sensor Fusion, Motion Planning
-  * Computer Vision, Deep Learning, Transformer Architectures, Panoptic Segmentation
-  * Factor Graph Optimization, Probabilistic Robotics, Real-time Systems
-* **Frameworks & Libraries**
-  * ROS/ROS2, GTSAM, OpenCV, PCL (Point Cloud Library), Eigen, PyTorch
-  * DBoW2, OpenGV, Pangolin, DETR, Boost
+  * C/C++, Python, CAPL, MATLAB, Linux/Unix, Embedded C
+* **Embedded Systems & Automotive**
+  * AUTOSAR, QNX RTOS, Android Automotive, ECU Development, Tri-Core Platforms
+  * Ethernet, Bluetooth, Wi-Fi Module Development, Memory Analysis, Static Analysis
+* **Software Engineering & Testing**
+  * MISRA Standards, COVERITY Static Analysis, Unit Testing, CI/CD Pipelines
+  * Multithreading, System Architecture, Modular Software Design
+* **Computer Vision & Robotics**
+  * OpenCV, Traditional Computer Vision, SLAM, GTSAM, Factor Graph Optimization
+  * Bag-of-Words (BoW), 3D Scene Understanding, Real-time Systems
 
 Research & Projects
 ======
@@ -62,12 +70,6 @@ Research & Projects
   * Deep learning system for real-time scene understanding with temporal consistency
 * **Camera-Guided Search and Rescue System** (86% victim detection rate)
   * Modified ROS exploration algorithms for camera-aware autonomous navigation
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
 
 **Download Full Resume:** [RAMESH_ANUSHSRIRAM.pdf](/files/RAMESH_ANUSHSRIRAM.pdf)
 
