@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anush Sriram Ramesh · Robotics & ADAS Software Engineer</title>
+  <meta name="description" content="Robotics and ADAS software engineer: real-time C++ state estimation (SLAM, sensor fusion, GTSAM) plus ADAS systems integration, simulation and validation at Lucid Motors.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sriram-0311.github.io/">
+  <meta property="og:title" content="Anush Sriram Ramesh · Robotics & ADAS Software Engineer">
+  <meta property="og:description" content="Real-time C++ state estimation (SLAM, sensor fusion) and ADAS systems integration and validation.">
+  <meta property="og:image" content="https://sriram-0311.github.io/assets/img/profile.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f766e'/><text x='32' y='42' font-family='Arial' font-weight='700' font-size='26' text-anchor='middle' fill='white'>AR</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Anush Sriram Ramesh","jobTitle":"ADAS Validation Engineer","worksFor":{"@type":"Organization","name":"Lucid Motors"},"alumniOf":"Northeastern University","email":["ramesh.anu@northeastern.edu","sriramvsai97@gmail.com"],"url":"https://sriram-0311.github.io/","sameAs":["https://github.com/sriram-0311","https://www.linkedin.com/in/anush-sriram-ramesh-b3185414b"]}
+  </script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Anush Sriram Ramesh</a>
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li class="hide-sm"><a href="#experience">Experience</a></li>
+      <li class="hide-sm"><a href="#projects">Projects</a></li>
+      <li><a href="assets/files/Anush_Sriram_Ramesh_Resume.pdf">Resume</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap intro">
+    <div>
+      <p class="eyebrow">Robotics &amp; ADAS software engineer · Bay Area</p>
+      <h1>Anush Sriram Ramesh</h1>
+      <p class="lead">I build real-time state estimation in C++ (SLAM, sensor fusion, factor graphs), and the systems integration and validation that prove autonomy features work on a real vehicle.</p>
+      <p class="sub">ADAS Validation Engineer at Lucid Motors · MS Robotics, Northeastern University · 5+ years of automotive software</p>
+      <div class="btns">
+        <a class="btn primary" href="assets/files/Anush_Sriram_Ramesh_Resume.pdf">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Resume</a>
+        <a class="btn" href="https://github.com/sriram-0311">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/anush-sriram-ramesh-b3185414b">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>LinkedIn</a>
+        <a class="btn" href="mailto:ramesh.anu@northeastern.edu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Email</a>
+      </div>
+    </div>
+    <div class="portrait-wrap"><img class="portrait" src="assets/img/profile.jpg" alt="Anush Sriram Ramesh"></div>
+  </div>
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b>243 → 71 ms</b><span>per-frame SLAM processing time after profiling and rework</span></div>
+      <div class="stat"><b>11 / 11</b><span>EuRoC sequences completed, up from 2 before my fixes</span></div>
+      <div class="stat"><b>20% → 97%</b><span>platform test coverage across 21 ECUs, now a release gate</span></div>
+      <div class="stat"><b>5×</b><span>faster ADAS feature testing through bench automation</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="what">
+  <div class="wrap">
+    <h2>What I do</h2>
+    <p class="section-sub">I work on both sides of autonomy software: the estimation algorithms, and the integration and validation work that gets a feature onto a production vehicle.</p>
+    <div class="pillars">
+      <div class="card pillar">
+        <h3>State estimation &amp; SLAM</h3>
+        <p>Multi-camera feature tracking and data association, global relocalization, loop closure, and camera-IMU-GPS fusion on GTSAM/iSAM2 factor graphs, written in real-time C++.</p>
+        <div class="tags"><span class="tag">C++17</span><span class="tag">GTSAM</span><span class="tag">Eigen</span><span class="tag">OpenCV</span><span class="tag">OpenGV</span><span class="tag">DBoW2</span></div>
+      </div>
+      <div class="card pillar">
+        <h3>Systems integration &amp; validation</h3>
+        <p>Bringing up ADAS features across ECUs, requirements-based bench validation, regression gates for releases, and root-cause analysis with perception teams and Tier-1 suppliers.</p>
+        <div class="tags"><span class="tag">ADAS</span><span class="tag">CANoe / CAPL</span><span class="tag">AUTOSAR</span><span class="tag">QNX</span><span class="tag">SOTIF</span><span class="tag">Jenkins</span></div>
+      </div>
+      <div class="card pillar">
+        <h3>Simulation &amp; benchmarking</h3>
+        <p>Deterministic benchmark harnesses, ground-truth metrics and simulated scenarios that turn "it seems to work" into a number with an error bar.</p>
+        <div class="tags"><span class="tag">NVIDIA Isaac Sim</span><span class="tag">ROS 2</span><span class="tag">dSPACE</span><span class="tag">AiSIM</span><span class="tag">evo</span><span class="tag">Python</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <h2>Featured work</h2>
+    <p class="section-sub">Every number below comes from a reproducible run or a production program.</p>
+
+    <article class="card feature">
+      <div class="media"><img src="assets/img/vioslam.gif" alt="VIO-SLAM running on EuRoC MH_01: map, keyframe trajectory, stereo tracking view and per-frame timing" loading="lazy"></div>
+      <div class="body">
+        <div class="kicker">Open source · C++ <span class="badge">Active</span></div>
+        <h3>VIO-SLAM: multi-camera visual-inertial SLAM</h3>
+        <p>Feature-based SLAM for stereo and multi-camera rigs, with IMU fusion, Bag-of-Words loop closure and global relocalization on a GTSAM/iSAM2 back end. I benchmark every change on EuRoC with a deterministic harness that records per-stage timing and ATE/RPE.</p>
+        <ul class="metrics">
+          <li><b>2 → 11 of 11</b><span>EuRoC sequences completed after fixing back-end, data-association and memory bugs</span></li>
+          <li><b>243 → 71 ms</b><span>per frame; peak memory 20 → 4.7 GB</span></li>
+          <li><b>14.2 → 3.2 cm</b><span>trajectory error on fast-motion V1_02 after adding stereo-inertial fusion</span></li>
+          <li><b>AP 0.38 → 0.63</b><span>loop-closure precision using self-supervised I-JEPA features instead of Bag-of-Words</span></li>
+        </ul>
+        <p class="note">Built on MC-SLAM from Northeastern's Field Robotics Lab (original author Pushyami Kaveti). I wrote the tracking front end, global relocalization and pose-only back end, and have since ported, benchmarked and debugged the system.</p>
+        <div class="links"><a href="https://github.com/sriram-0311/VIO-SLAM">Code &amp; results →</a></div>
+      </div>
+    </article>
+
+    <article class="card feature">
+      <div class="media">
+        <div class="panel">
+          <div>
+            <div class="big">86%</div>
+            <div class="cap">nominal success in simulation · 43 of 50 episodes · Wilson 95% CI 74–93%</div>
+          </div>
+          <div>
+            <div class="big" style="font-size:34px;color:#f0b45a">22%</div>
+            <div class="cap">measured before fixing a stale camera frame after each reset</div>
+          </div>
+        </div>
+      </div>
+      <div class="body">
+        <div class="kicker">Isaac Sim · Python <span class="badge wip">In progress</span></div>
+        <h3>How robust is a robot foundation model?</h3>
+        <p>I am measuring how NVIDIA's GR00T N1.7 vision-language-action policy degrades as visual, geometric, semantic and latency perturbations increase, on a humanoid pick-and-place task in Isaac Sim (IsaacLab-Arena). Paired seeds and Wilson confidence intervals at every perturbation level.</p>
+        <ul class="metrics">
+          <li><b>Camera blackout</b><span>head camera rendered black when the policy server shared the 16 GB GPU; fixed by moving inference to CPU and adding a per-run camera health check</span></li>
+          <li><b>Stale frame</b><span>the first observation after an environment reset still showed the previous episode; a re-fetch fix moved success from 22% to 86%</span></li>
+        </ul>
+        <p class="note">Validating the evaluation pipeline came first: both bugs silently lowered the success rate without crashing anything. Perturbation sweeps are next.</p>
+      </div>
+    </article>
+
+    <article class="card feature">
+      <div class="media">
+        <div class="panel">
+          <div class="flow">
+            <div class="node">Surround cameras</div><span class="arrow">→</span>
+            <div class="node">ADAS ECU<small>perception</small></div><span class="arrow">→</span>
+            <div class="node">Infotainment ECU<small>camera server · alert</small></div>
+          </div>
+          <div class="bench">Bench: vehicle and system states simulated in CANoe; requirements-based test automation in CAPL and Python</div>
+        </div>
+      </div>
+      <div class="body">
+        <div class="kicker">Lucid Motors · Systems integration</div>
+        <h3>Curb Rash Alert: from integration to production</h3>
+        <p>I brought up Curb Rash Alert from early integration to production vehicles. The feature connects the perception algorithm on the ADAS ECU to the camera server on the infotainment ECU, which shows the alert. I validated the integration on the bench against CANoe-simulated system states.</p>
+        <ul class="metrics">
+          <li><b>Mode management</b><span>designed with debuggability in mind, so feature states and transitions are observable and failures are quick to isolate</span></li>
+          <li><b>5× faster</b><span>feature testing after automating bench validation of L3 ADAS requirements</span></li>
+          <li><b>Ground truth</b><span>unsupervised annotation pipeline for dSPACE and AiSIM parking scenarios, used to score perception outputs</span></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="card feature">
+      <div class="media"><img src="assets/img/mcslam-neu.gif" alt="Multi-camera SLAM map and trajectory from the Northeastern research system" loading="lazy"></div>
+      <div class="body">
+        <div class="kicker">Northeastern University · Toyota Research Institute collaboration</div>
+        <h3>Multi-camera GPS-visual-inertial SLAM, and certifiable estimation in Isaac Sim</h3>
+        <p>As a research assistant I developed the fast-tracking front end and global relocalization of a multi-camera GPS-visual-inertial SLAM system, in collaboration with Toyota Research Institute. KD-tree keyframe lookup cut relocalization latency, and Bag-of-Words loop closure bounds map drift.</p>
+        <p>Separately, I connected NVIDIA Isaac Sim to ROS 2 Jazzy through OmniGraph to stream multi-sensor data with exact ground truth, then replayed it into iSAM2 to evaluate GTSAM back ends that use QCQP/SDP relaxations to certify globally optimal trajectories.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <p class="section-sub">Real-time automotive software since 2019, from QNX connectivity at Bosch to ADAS bring-up and validation at Lucid.</p>
+    <div class="timeline">
+
+      <div class="card job">
+        <div class="job-head"><span class="co">Lucid Motors</span><span class="loc">Newark, CA</span></div>
+        <div class="role">
+          <div class="role-head"><b>ADAS Validation Engineer</b><span>Oct 2025 – present</span></div>
+          <ul>
+            <li>Brought up <strong>Curb Rash Alert</strong> from early integration to production vehicles, across the ADAS and infotainment ECUs.</li>
+            <li>Automated bench validation of L3 ADAS requirements (CAPL, CANoe, Python), making feature testing <strong>5× faster</strong> and catching rare defects that manual testing missed.</li>
+            <li>Built an unsupervised ground-truth annotation pipeline for dSPACE and AiSIM parking scenarios, widening SOTIF scenario coverage.</li>
+            <li>Root-cause feature failures with perception and feature teams; present quantified results to Tier-1 suppliers weekly.</li>
+          </ul>
+        </div>
+        <div class="role">
+          <div class="role-head"><b>Embedded Test Engineer II</b><span>Jul 2024 – Sep 2025</span></div>
+          <ul>
+            <li>Designed a unified test-automation architecture for AUTOSAR platform software on <strong>21 ECUs</strong> and 3 vehicle programs.</li>
+            <li>Raised feature test coverage from <strong>20% to 97%</strong> and made the suite a mandatory regression gate for every release.</li>
+          </ul>
+        </div>
+        <div class="role">
+          <div class="role-head"><b>Embedded Software Developer Intern</b><span>May 2023 – Aug 2023</span></div>
+          <ul>
+            <li>Built an automated static memory-analysis tool that visualizes per-core, per-component memory use on Tri-Core platform ECUs.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card job">
+        <div class="job-head"><span class="co">Northeastern University</span><span class="loc">Boston, MA</span></div>
+        <div class="role">
+          <div class="role-head"><b>Research Assistant, SLAM Software Developer</b><span>Sep 2023 – Jun 2024</span></div>
+          <ul>
+            <li>Developed the fast-tracking front end and global relocalization of a multi-camera GPS-visual-inertial SLAM system in C++, in collaboration with Toyota Research Institute.</li>
+            <li>Since Sep 2026, maintaining it as open-source <a href="https://github.com/sriram-0311/VIO-SLAM">VIO-SLAM</a>: ported to GTSAM 4.3, benchmarked on all 11 EuRoC sequences, and profiled from 243 to 71 ms per frame.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card job">
+        <div class="job-head"><span class="co">Bosch Global Software Technologies</span><span class="loc">Coimbatore, India</span></div>
+        <div class="role">
+          <div class="role-head"><b>Senior Embedded Software Developer</b><span>Jun 2019 – Mar 2022</span></div>
+          <ul>
+            <li>Developed C++ software for Ethernet, Bluetooth and Wi-Fi modules across QNX RTOS, Automotive Android and AUTOSAR for a GM Cadillac EV product-validation platform.</li>
+            <li>Engineered real-time network traffic-load emulation with asynchronous multithreading and QNX IPC.</li>
+            <li>Sustained test coverage above 95% across multi-team releases with automated results in Grafana and Jenkins CI.</li>
+          </ul>
+        </div>
+        <div class="role">
+          <div class="role-head"><b>Robotics Intern</b><span>Dec 2018 – May 2019</span></div>
+          <ul>
+            <li>Used OpenCV to detect and locate connector pins in hardware for automated robotic calibration and testing.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>More projects</h2>
+    <p class="section-sub">Coursework and side projects in perception, learning and planning.</p>
+    <div class="grid">
+      <article class="card proj">
+        <div class="thumb"><img src="assets/img/panoptic.gif" alt="Panoptic segmentation output" loading="lazy"></div>
+        <div class="body"><h3>Video panoptic segmentation with DETR</h3>
+          <p>Transformer-based panoptic segmentation (PyTorch) for multi-camera panoramic video, keeping instance identity consistent across time and cameras.</p>
+          <a href="https://github.com/sriram-0311/DETR-PS">GitHub →</a></div>
+      </article>
+      <article class="card proj">
+        <div class="thumb"><img src="assets/img/search-rescue.gif" alt="TurtleBot search and rescue map" loading="lazy"></div>
+        <div class="body"><h3>Camera-aware search and rescue</h3>
+          <p>TurtleBot3 exploration that only marks space as explored once the camera has seen it, so AprilTag "victims" outside the lidar-only frontier are not missed.</p>
+          <a href="https://github.com/sriram-0311/Search-and-Rescue-with-Turtlebot">GitHub →</a></div>
+      </article>
+      <article class="card proj">
+        <div class="thumb"><img src="assets/img/motion-blur.jpg" alt="Motion deblurring results" loading="lazy"></div>
+        <div class="body"><h3>Removing motion blur</h3>
+          <p>A fully convolutional network estimates the motion-flow map of a blurred image, which then drives non-blind deconvolution to recover the sharp image.</p>
+          <a href="https://github.com/sriram-0311/motion-blur">GitHub →</a></div>
+      </article>
+      <article class="card proj">
+        <div class="thumb"><img src="assets/img/mosaicing.gif" alt="Image mosaic" loading="lazy"></div>
+        <div class="body"><h3>Image mosaicing</h3>
+          <p>Panorama stitching from scratch: Harris corners, feature matching and image warping.</p>
+          <a href="https://github.com/sriram-0311/cv_mosaicing">GitHub →</a></div>
+      </article>
+      <article class="card proj">
+        <div class="thumb"><img src="assets/img/motion-detection.gif" alt="Motion detection output" loading="lazy"></div>
+        <div class="body"><h3>Motion detection in C++</h3>
+          <p>Spatial and temporal filters (absolute difference, Prewitt temporal masks, derivative of Gaussian) to segment moving objects against a static background.</p>
+          <a href="https://github.com/sriram-0311/cv_motion_detection">GitHub →</a></div>
+      </article>
+      <article class="card proj">
+        <div class="thumb"><img src="assets/img/mobile-robotics.gif" alt="Path planning on an occupancy grid" loading="lazy"></div>
+        <div class="body"><h3>Mobile robotics algorithms</h3>
+          <p>A* and probabilistic-roadmap planning, a particle filter on SE(2), and Iterative Closest Point registration.</p>
+          <a href="https://github.com/sriram-0311/MobileRobotics5550">GitHub →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap two">
+    <div class="card skills">
+      <h2 style="font-size:22px;margin-bottom:14px">Skills</h2>
+      <dl>
+        <div><dt>Languages</dt><dd>C++17, Python, C, CAPL</dd></div>
+        <div><dt>Estimation &amp; perception</dt><dd>Feature tracking, data association (RANSAC, KD-tree), camera-IMU-GPS fusion, IMU preintegration, GTSAM/iSAM2, Eigen, OpenCV, OpenGV, DBoW2, PyTorch</dd></div>
+        <div><dt>Systems &amp; validation</dt><dd>ADAS bring-up and integration, requirements-based and scenario-based testing, SOTIF, regression and release gating, CANoe, dSPACE, AiSIM, AUTOSAR</dd></div>
+        <div><dt>Real-time &amp; tooling</dt><dd>Linux, QNX RTOS &amp; IPC, multithreading, latency and memory profiling, AddressSanitizer, gdb, CMake, ROS 2, NVIDIA Isaac Sim, Jenkins, Git</dd></div>
+      </dl>
+    </div>
+    <div class="card edu">
+      <h2 style="font-size:22px;margin-bottom:14px">Education</h2>
+      <p><b>MS in Robotics</b>, Northeastern University<span>Boston, MA · May 2024 · GPA 3.94 / 4.0</span></p>
+      <p><b>BE in Robotics and Automation</b>, PSG College of Technology<span>Coimbatore, India · May 2019</span></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Anush Sriram Ramesh · Updated October 2026</span>
+    <span><a href="mailto:ramesh.anu@northeastern.edu">ramesh.anu@northeastern.edu</a><a href="mailto:sriramvsai97@gmail.com">sriramvsai97@gmail.com</a><a href="https://github.com/sriram-0311">GitHub</a><a href="https://www.linkedin.com/in/anush-sriram-ramesh-b3185414b">LinkedIn</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
